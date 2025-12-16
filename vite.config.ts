@@ -1,5 +1,6 @@
 import path from "path";
 import { defineConfig } from "vite";
+base: "/",
 import react from "@vitejs/plugin-react";
 import { cloudflare } from "@cloudflare/vite-plugin";
 import { mochaPlugins } from "@getmocha/vite-plugins";
